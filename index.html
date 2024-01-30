@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Black-Jack</title>
+        <link rel="stylesheet" href="blackjack.css">
+    </head>
+    <body>
+        <!-- populate what is the dealer sum is, when the user click "stay" button -->
+        <h2>Dealer: <span id="dealer-sum"></span></h2>
+        <!-- add a section that will show dealer's cards -->
+        <div id="dealer-cards">
+            <img id="hidden" src="BACK.png">
+        </div>
+        
+        <!-- populate a players sum, when clicking "hit" -->
+        <h2>You: <span id="your-sum"></span></h2>
+        <!-- add a section that will show player's cards -->
+        <div id="your-cards"></div>
+        
+        <!-- add a breakline -->
+        <br>
+        
+        <!-- add a "hit" button that will add cards to a player when being clicked -->
+        <button id="hit">Hit</button>
+        <!-- add a "stay" button that will let the dealer play when being clicked -->
+        <button id="stay">Stay</button>
+        <!-- add a tag paragraph that will show the results of weather you won, lose or tier -->
+        <p id="results"></p>
+        <script src="blackjack.js"></script>
+    </body>
+</html>
